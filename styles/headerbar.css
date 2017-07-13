@@ -1,0 +1,30 @@
+.header {
+  width: 100%;
+  background-color: #2F2235;
+}
+
+.header-title {
+  color: #34D1D1;
+  font-size: 1.5em;
+  font-weight: 300;
+  margin: 11px 0 11px 40px;
+}
+
+.header-title span {
+  color: #F2F2F2;
+}
+
+.header-name {
+  color: #F2F2F2;
+  font-weight: 600;
+  margin: 16px 40px 15px 0px
+}
+
+.header-section {
+  font-weight: 300;
+  width: 100%;
+}
+
+.hearder-section h3 hr{
+  display: inline;
+}
