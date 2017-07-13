@@ -10,7 +10,7 @@ const openTab = (event, tabName ) => {
     Object.keys(tabLink).forEach((link) => {
       tabLink[link].className = tabLink[link].className.replace(" active", "");
     })
-    
+
     document.getElementById(tabName).style.display = "block";
     event.currentTarget.className += " active";
 }

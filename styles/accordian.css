@@ -28,3 +28,9 @@
     border: 1px solid #ccc;
     border-top: none;
 }
+
+.tab-img {
+  height: 80%;
+  max-width: 300px;
+  background-color: grey;
+}
