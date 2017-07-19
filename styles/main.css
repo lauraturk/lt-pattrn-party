@@ -1,1 +1,27 @@
+@import url('./accordian.css');
+@import url('./cards.css');
+@import url('./grid.css');
+@import url('./headerbar.css');
 
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  height: 100%;
+  margin: 0;
+  width: 100%;
+}
+
+.code-view {
+  -webkit-appearance: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1.5em;
+  width: 300px;
+  height: 40px;
+  background-color: #3F3244;
+  color: #F2F2F2;
+  margin: 40px auto;
+  -moz-appearance: none;
+   appearance: none;
+}
