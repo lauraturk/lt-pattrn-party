@@ -1,6 +1,6 @@
 body {
   display: grid;
-  grid-template-columns: .1fr 1fr 1fr 1fr .1fr;
+  grid-template-columns: 100px 1fr 1fr 1fr 100px;
   grid-template-rows: 60px 1fr 1fr 1fr;
 }
 
@@ -16,8 +16,6 @@ body {
 .u-center {
   grid-column-start: 2;
   grid-column-end: 5;
-  grid-row-start: 3;
-  grid-row-end: 5;
 }
 
 .u-left {
