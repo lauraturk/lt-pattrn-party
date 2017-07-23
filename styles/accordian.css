@@ -1,36 +1,56 @@
 .tab-box {
-    overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  overflow: hidden;
+  background-color: #f2f2f2;
 }
 
 .tab-box button {
-    background-color: inherit;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.3s;
+  border: 1px solid #fff;
+  border-bottom: 1px solid #D1D2D3;
+  background-color: inherit;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
 }
 
 .tab-box button:hover {
-    background-color: #ddd;
+  background-color: #ddd;
 }
 
 .tab-box button.active {
-    background-color: #ccc;
+  background-color: #fff;
+  border: 1px solid #D1D2D3;
+  border-bottom: none;
 }
 
 .tab-fill {
-    display: none;
-    padding: 6px 12px;
-    border: 1px solid #ccc;
-    border-top: none;
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #D1D2D3;
+  border-top: none;
+  text-align: left;
+}
+
+.tab-fill article {
+  display: grid;
+  grid-template-columns: 1.5fr 3fr;
+  grid-template-rows: 1fr;
+  padding: 15px;
 }
 
 .tab-img {
-  height: 80%;
-  max-width: 300px;
-  background-color: grey;
+  height: 300px;
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+.tab-title, .tab-text {
+  margin-left: 20px;
+}
+
+.tab-title {
+  border-bottom: 1px solid #D1D2D3;
+  padding-bottom: 12px;
 }

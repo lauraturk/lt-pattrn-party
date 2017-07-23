@@ -8,21 +8,36 @@
 }
 
 .cards_card {
-  background-color: lightgrey;
-  border: 1px solid gray;
   height: 100%;
-  width: 100%;
+  max-width: 350px;
+  padding: 0;
+  text-align: left;
 }
 
 .cards_card figcaption {
-  background-color: white;
-  padding: 5px;
+  font-size: 1.25em;
+  font-weight: 600;
+  border: 1px solid #D1D2D3;
+  border-bottom: none;
+  background-color: #fff;
+  padding: 5px 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .cards_card:nth-child(1) {
   grid-column: 1/3;
+  max-width: 100%;
 }
 
 .cards_card:nth-child(7) {
   grid-column: 2/4;
+  max-width: 100%;
+}
+
+.cards_card div {
+  background-color: #f2f2f2;
+  border: 1px solid #D1D2D3;
+  height: 300px;
 }

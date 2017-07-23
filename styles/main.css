@@ -13,7 +13,7 @@ body {
 }
 
 .code-view {
-  -webkit-appearance: none;
+  border: none;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size: 1.5em;
@@ -23,10 +23,47 @@ body {
   color: #F2F2F2;
   margin: 40px auto;
   -moz-appearance: none;
+  -webkit-appearance: none;
    appearance: none;
 }
 
 figure {
   margin: 0;
   padding: 0;
+}
+
+.header {
+  width: 100%;
+  background-color: #2F2235;
+}
+
+.header-title {
+  color: #34D1D1;
+  font-size: 1.5em;
+  font-weight: 300;
+  margin: 11px 0 11px 40px;
+}
+
+.header-title span {
+  color: #F2F2F2;
+}
+
+.header-name {
+  color: #F2F2F2;
+  font-weight: 600;
+  margin: 16px 40px 15px 0px
+}
+
+.header-section {
+  display: inline-block;
+  font-weight: 300;
+  width: auto;
+}
+
+hr {
+  color: #F2F2F2;
+  display: inline-block;
+  margin-left: 20px;
+  vertical-align: middle;
+  width: 80%;
 }

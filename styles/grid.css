@@ -1,7 +1,7 @@
 body {
   display: grid;
-  grid-template-columns: 100px 1fr 1fr 1fr 100px;
-  grid-template-rows: 60px 1fr 1fr 1fr;
+  grid-template-columns: 100px 1fr 100px;
+  grid-template-rows: 60px .1fr .5fr .1fr .5fr .1fr .5fr;
 }
 
 .u-header {
@@ -15,7 +15,20 @@ body {
 
 .u-center {
   grid-column-start: 2;
-  grid-column-end: 5;
+  grid-column-end: 3;
+  text-align: center;
+}
+
+.u-center:nth-of-type(1) {
+  grid-row: 3/4;
+}
+
+.u-center:nth-of-type(2) {
+  grid-row: 5/6;
+}
+
+.u-center:nth-of-type(3) {
+  grid-row: 7/8;
 }
 
 .u-left {
@@ -27,7 +40,21 @@ body {
 }
 
 .u-indentLeft {
-  grid-column-start: 2;
+  grid-column: 1/4;
+  margin: 40px;
+  text-align: justify;
+}
+
+.u-indentLeft:nth-of-type(1) {
+  grid-row: 2/3;
+}
+
+.u-indentLeft:nth-of-type(2) {
+  grid-row: 4/5;
+}
+
+.u-indentLeft:nth-of-type(3) {
+  grid-row: 6/7;
 }
 
 .u-centerLeft {
@@ -37,5 +64,4 @@ body {
 
 .u-bottom {
   grid-row-start: 5;
-  /*grid-row-end: 5;*/
 }
