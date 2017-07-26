@@ -1,4 +1,4 @@
-# lt-pattrn-party
+# Pattrn Party
 Practice creating style guide and common front end elements
 * Accordian Tabs
 * Flexible Cards
