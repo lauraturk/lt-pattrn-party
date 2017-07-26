@@ -6,14 +6,14 @@ Practice creating style guide and common front end elements
 
 [Original Assignment](http://frontend.turing.io/projects/pattrn-party.html)
 
-## Comp vs. Screenshot: Accordian Tabs
-![Accordian Tabs Desktop - comp](http://i.imgur.com/ddTw7OW.png) 
-![Accordian Tabs Desktop - screenshot](http://i.imgur.com/462jeRD.png)
-![Accordian Tabs Mobile](http://i.imgur.com/41OwZoB.png)
+[live site](https://lauraturk.github.io/lt-pattrn-party/)
 
-## Comp vs. Screenshot: Flexible cards
-![Flexible Cards](http://i.imgur.com/x8bdaDf.png)
+Welcome to Pattrn Party's style guide. Each element listed above could be used in your own code. JavaScript was built in vanilla javascript. CSS3 used throughout with CSS Grid for layout. 
 
-## Comp vs. Screenshot: Header Bar
+## Desktop
+![Desktop Gif](http://g.recordit.co/GClFlrMIu1.gif)
+
+## Mobile
+![Mobile Gif](http://g.recordit.co/j4JObV60vw.gif)
 
 
