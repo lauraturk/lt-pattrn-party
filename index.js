@@ -15,6 +15,16 @@ const openTab = (event, tabName ) => {
     event.currentTarget.className += " active";
 }
 
+const mobileAcc = document.getElementsByClassName("tab-mobile");
+
+for (let j = 0; j < mobileAcc.length; j++) {
+  mobileAcc[j].onclick = function() {
+    this.classList.toggle("active");
+    const tabMobileFill = this.nextElementSibling;
+    tabMobileFill.style.display === "block" ? tabMobileFill.style.display = "none" :  tabMobileFill.style.display = "block";
+  }
+}
+
   document.getElementById("defaultOpen").click();
 
   for(let i = 0; i < 7; i++) {
@@ -30,4 +40,13 @@ const openTab = (event, tabName ) => {
     figNode.classList.add('cards_card');
 
     document.getElementById("cards").appendChild(figNode);
+  }
+
+  const showNav = () => {
+      const linkArea = document.getElementById("nav-area");
+      if (linkArea.className === "nav-links") {
+          linkArea.className += " show";
+      } else {
+          linkArea.className = "nav-links";
+      }
   }
